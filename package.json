@@ -1,0 +1,25 @@
+{
+  "name": "chatjs",
+  "version": "1.0.0",
+  "description": "A chat app made using javascript and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syd2/chatjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syd2/chatjs/issues"
+  },
+  "homepage": "https://github.com/syd2/chatjs#readme",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

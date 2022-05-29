@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+
+header h1{
+    color :  white;
+    font-size: 38px;
+    padding: 15px 0px 10px 20px;
+    border-bottom: 1px solid grey;
+    
+}
+.container{
+    width: 90%;
+    background-color: rgb(160, 122, 57);
+    height: 600px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+.msg-container{
+    width: 95%;
+    height: 60%;
+    background-color: beige;
+    margin: 5px auto;
+    border-radius: 5px;
+
+}
+.message{
+    list-style-type: none;
+    padding: 8px;
+    border-bottom: 1px solid silver;
+}
+
+.send-msg{
+    width: 85%;
+    min-height: 80px;
+    margin: 10px auto;
+}
+.send-msg input[type="text"]{
+    width: 72%;
+    height: 40px;
+    padding: 3px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.send-msg #name{
+    width: 25%;
+    height: 40px;
+    padding: 3px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.send-msg input[type="submit"]{
+    width:  100%;
+    height: 38px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    background-color:rgb(240, 255, 255);
+
+}
+
+.send-msg input[type="submit"]:hover{
+    background-color: rgba(240, 255, 255, 0.671);
+}
